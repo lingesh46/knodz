@@ -1,0 +1,86 @@
+.box{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-image:url(pincial.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+
+}
+.nav-link{
+    color:white;
+    text-decoration: underline;   
+}
+
+.navbar-expand-sm .navbar-collapse {
+
+    justify-content: end!important;
+    gap:40%;
+  }
+
+  .col-sm-12{
+    color:blue;
+    text-align:center;
+    
+  }
+  .fox{
+    color:blue;
+    text-decoration: underline;
+  }
+  .vox{
+    background-color:blue ;
+    color:white;
+    border-radius:10px ;
+  }
+  
+
+  .col-sm-6 h5  {
+    color:blue;
+    text-decoration:underline ;
+  }
+  
+ .row h4{
+  text-align: center;
+  color:blue; 
+ }
+ 
+.fox1{
+  color:blue;
+  text-decoration:underline ;
+}
+ 
+ 
+.lin{
+  color:blue;
+ }
+ 
+.box1{
+  position:relative;
+}
+ 
+ .box2{
+ position: absolute;
+ top:5px;
+ right:5px;
+}
+.bg-primary{
+color:white;
+}
+.btn{
+  font-size:20px ;
+}
+  .container-fluid  {
+    background-color: blue;
+    color:white;
+    
+   }
+
+@media only screen and (max-width:600px){
+.box{
+  background-position:center;
+  background-size:cover;
+
+}
+  
+}
